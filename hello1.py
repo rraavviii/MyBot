@@ -1,7 +1,7 @@
 import telegram.ext
 import kiit
 import detail
-TOKEN = "6832286166:AAFlWnEY2fTKABtldlcWO18QJUddWlTB-z0"
+TOKEN = "your token"
 
 def start(update, context):
     update.message.reply_text("You have two choices. Select one of them:\n1. Add\n2. Mul")
@@ -133,7 +133,7 @@ updater.idle()
 # from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 #
 # # Replace 'YOUR_BOT_TOKEN' with your actual bot token
-# TOKEN = '6832286166:AAFlWnEY2fTKABtldlcWO18QJUddWlTB-z0'
+# TOKEN = 'your token'
 #
 # def start(update: Update, context: CallbackContext) -> None:
 #     update.message.reply_text('Welcome to the Calculator Bot! Type /add to add two numbers or /sub to subtract.')
