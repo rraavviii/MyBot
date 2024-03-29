@@ -1,7 +1,7 @@
 import telegram.ext
 import kiit
 import detail
-TOKEN = "your token"
+TOKEN = "6832286166:AAFlWnEY2fTKABtldlcWO18QJUddWlTB-z0"
 
 def start(update, context):
     update.message.reply_text("You have two choices. Select one of them:\n1. Add\n2. Mul")
